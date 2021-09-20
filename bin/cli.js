@@ -1,4 +1,4 @@
-#!/usr/bin/env/node
+#!/usr/bin/env/ node
 
 const {execSync} = require('child_process');
 
@@ -17,8 +17,8 @@ const gitCheckoutCommand = `git clone --depth 1 https://github.com/Flashminat0/c
 const installCommand = `cd ${repoName} && yarn add`
 
 console.log(`Cloning the repo with name ${repoName}`);
-const gitChekout =runCommand(gitCheckoutCommand);
-if (!gitChekout) process.exit(-1);
+const gitCheckout =runCommand(gitCheckoutCommand);
+if (!gitCheckout) process.exit(-1);
 console.log(`Installing Dependencies for your ${repoName} project `);
 
 const installedDeps = runCommand(installCommand);

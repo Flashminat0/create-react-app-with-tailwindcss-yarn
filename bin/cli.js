@@ -14,7 +14,7 @@ const runCommand = (command) => {
 
 const repoName = process.argv[2];
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/Flashminat0/create-react-app-with-tailwindcss-yarn.git ${repoName}`
-const installCommand = `cd ${repoName} && yarn add`
+const installCommand = `cd ${repoName} && yarn`
 
 console.log(`Cloning the repo with name ${repoName}`);
 const gitCheckout =runCommand(gitCheckoutCommand);

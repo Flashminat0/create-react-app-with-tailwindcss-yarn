@@ -19,6 +19,8 @@ if (repoName === '.') {
     folder = '';
 }
 
+runCommand(`Remove-Item * -Recurse  -Force -Confirm:$false`);
+
 const gitCheckoutCommand = `git clone https://github.com/Flashminat0/create-react-app-with-tailwindcss-yarn.git ${repoName}`
 const installCommand = `${folder} yarn`
 

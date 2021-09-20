@@ -25,7 +25,7 @@ const installedDeps = runCommand(installCommand);
 if (!installedDeps) process.exit(-1);
 
 console.log("Congratulations You have successfully Added Tailwind Css to your react project !");
-runCommand(`cd ${repoName}`);
+// runCommand(`cd ${repoName}`);
 console.log("type npm start to start the Server !");
 
 

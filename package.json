@@ -1,6 +1,6 @@
 {
   "name": "@flash_minat0/create-react-app-with-tailwindcss-with-yarn",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "bin" : "./bin/cli.js",
   "dependencies": {
     "@craco/craco": "^6.3.0",

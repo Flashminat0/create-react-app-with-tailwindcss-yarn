@@ -19,7 +19,7 @@ if (repoName === '.') {
     folder = '';
 }
 
-const gitCheckoutCommand = `git clone --depth 1 https://github.com/Flashminat0/create-react-app-with-tailwindcss-yarn.git ${repoName}`
+const gitCheckoutCommand = `git clone https://github.com/Flashminat0/create-react-app-with-tailwindcss-yarn.git ${repoName}`
 const installCommand = `${folder} yarn`
 
 console.log(`Cloning the repo with name ${repoName}`);

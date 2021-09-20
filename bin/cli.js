@@ -16,7 +16,6 @@ let repoName = process.argv[2];
 let folder = `cd ${repoName} &&`;
 
 if (repoName === '.') {
-    repoName = "";
     folder = '';
 }
 
